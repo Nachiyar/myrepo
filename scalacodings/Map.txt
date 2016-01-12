@@ -1,0 +1,18 @@
+
+
+object map {
+
+  def main(args: Array[String]) {
+    val colors1 = Map("red" -> "01",
+      "green" -> "02",
+      "pink" -> "03")
+    val colors2 = Map("blue" -> "04",
+      "yellow" -> "05",
+      "orange" -> "06")
+
+    var colors = colors1 ++ colors2
+    println("colors1 ++ colors2 : " + colors)
+
+  }
+}
+

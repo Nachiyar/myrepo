@@ -1,0 +1,12 @@
+
+
+object Average {
+  
+  def main(args: Array[String]){
+    var fruits = List(5,6,7,1,9,2);
+    var ordered = fruits.sorted;
+    println(ordered);
+      
+  }
+  
+}

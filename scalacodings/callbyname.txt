@@ -1,0 +1,19 @@
+
+
+object CallByName {
+
+  def main(args: Array[String]) {
+    println("Call By Name!!!")
+    avg(sum(10, 20))
+  }
+
+  def sum(a: Int, b: Int): Int = {
+    a + b
+  }
+
+  def avg(a: => Int) = {
+
+    println("Average is:" + a / 2)
+  }
+
+}

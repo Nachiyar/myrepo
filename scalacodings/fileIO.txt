@@ -1,0 +1,19 @@
+import scala.io.Source
+object file {
+  def countWords(file: String) {
+  val src = Source.fromFile("myfile.txt")
+  val count =
+    (for {
+      line <- src.getLines
+    } yield {
+      val words = line.split("\\s+")
+      words.size
+    }).sum
+  println(count)
+}
+def main(args: Array[String]) {
+  
+  countWords("");
+  
+}
+   }

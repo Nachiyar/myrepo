@@ -1,0 +1,17 @@
+
+
+object Partially_applied {
+
+  def num(a: Int, str: String) = {
+    println(a + " " + str)
+  }
+
+  def main(args: Array[String]) {
+
+    var add = num(3, _: String)
+    add("is a odd number")
+    add("is a Prime number")
+    add("is a fibonacci number")
+  }
+
+}

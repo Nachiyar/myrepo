@@ -1,0 +1,20 @@
+
+object PatternMatch {
+
+  def main(args: Array[String]) {
+    println(pattern("Hai"))
+    println(pattern("Nachiyar"))
+    println(pattern(1))
+    println(pattern("a"))
+
+  }
+
+  def pattern(a: Any): Any = a match {
+    case 1     => "Number!!"
+    case "Hai" => "String!!"
+    case "a"   => "found a"
+    case _     => "No match"
+
+  }
+
+}
