@@ -1,0 +1,9 @@
+!define TEST_SYSTEM {slim}
+!path C:\class
+!|Division     |
+|numerator|denominator|larger?|
+|3   |2 |3.0 |
+|1  |2   |2.0  |
+|6   |5   |5.0  |
+|7   |5   |5.0  |
+|9  |2  |2.0  |
