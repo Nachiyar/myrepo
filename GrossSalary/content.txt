@@ -1,0 +1,9 @@
+!define TEST_SYSTEM {slim}
+!path C:\class
+!|Gross_salary |
+|basic  |salary?|
+|15000  |30000.0  |
+|25000  |53750.0  |
+|35000  |78750.0  |
+|45000  |10125.0  |
+|20000  |43000.0  |
