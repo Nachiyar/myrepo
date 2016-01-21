@@ -1,5 +1,5 @@
 !define TEST_SYSTEM {slim}
-!path C:\class
+!path FitNesseRoot\GrossSalary
 !|Gross_salary |
 |basic  |salary?|
 |15000  |30000.0  |
