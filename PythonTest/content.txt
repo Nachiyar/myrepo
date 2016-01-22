@@ -1,0 +1,7 @@
+!define COMMAND_PATTERN {python "%m" %p}
+!define TEST_RUNNER {C:\Softwares\PyFIT-0.8a2\PyFIT-0.8a2\fit\FitServer.py}
+!path FitNesseRoot\PythonTest
+|Division|
+|numerator|denominator|quotient?|
+|10|5|2|
+|10|2|5.001|
