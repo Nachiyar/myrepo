@@ -1,0 +1,7 @@
+!define TEST_SYSTEM {slim}
+!path FitNesseRoot\SimpleInterest
+!|Sim_Int     |
+|principle|rate|time|Interest?|
+|1000|10|3|300.0|
+|2000|20|5|2100.0|
+|3000|30|6|5400.0|
